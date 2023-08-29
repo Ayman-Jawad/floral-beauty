@@ -62,21 +62,21 @@ body {
 
 /* Main section */
 
-.feature{
+.feature {
     padding: 100px;
 }
 
-.feature > p {
+.feature>p {
     margin-top: 20px;
 }
 
-.featured-flower{
+.featured-flower {
     display: flex;
     justify-content: center;
     text-align: center;
 }
 
-.flower-1{
+.flower-1 {
     background-color: #E554731A;
     padding: 60px 70px 0px 70px;
     margin-bottom: 125px;
@@ -84,12 +84,13 @@ body {
     margin-right: 20px;
     margin-bottom: 0%;
 }
-.flower-1 > img {
+
+.flower-1>img {
     width: 200px;
     height: 300px;
 }
 
-.flower-2{
+.flower-2 {
     background-color: #0597A026;
     padding: 60px 70px 0px 70px;
     margin-bottom: 125px;
@@ -97,32 +98,95 @@ body {
     margin-right: 20px;
     margin-bottom: 0%;
 }
-.flower-2 > img {
+
+.flower-2>img {
     width: 200px;
     height: 300px;
 }
 
-.flower-3{
+.flower-3 {
     background-color: #477D1126;
     padding: 60px 70px 0px 70px;
     margin-bottom: 125px;
     border-radius: 50% 50% 0% 0%;
     margin-bottom: 0%;
 }
-.flower-3 > img {
+
+.flower-3>img {
     width: 200px;
     height: 300px;
 }
 
-.featured-flower-name{
+.featured-flower-name {
     display: flex;
     justify-content: center;
     margin: 0%;
 }
 
-.flower-text{
+.flower-text {
     font-size: 15px;
     font-weight: 600;
     margin-top: 20px;
-    border-bottom: 1px solid black;
+
 }
+
+/* support */
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #2727270D;
+    margin: 130px 300px;
+    padding: 35px;
+    gap: 20px;
+
+
+}
+
+
+.support>p {
+    font-size: 15px;
+    font-weight: 600;
+    color: grey;
+
+}
+
+/* offer css  */
+
+.off {
+    color: #E55473;
+}
+
+.offer-banner {
+    background-color: #E554731A;
+    padding: 50px 30px 50px 180px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+.offer-banner-text {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+.picsart {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+/* showcase css */
+
+.showcase {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.showcase > img {
+    width: 250px;
+}
+
