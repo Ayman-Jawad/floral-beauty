@@ -1,6 +1,12 @@
-*{
+/* universal */
+
+* {
     margin: 0px;
 }
+
+
+/* COMMON codes */
+
 
 body {
     font-family: 'Lato', sans-serif;
@@ -16,6 +22,21 @@ body {
     font-weight: 200;
     padding: 10px 20px;
 }
+
+.title {
+    color: #181818;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.title-description {
+    color: #757575;
+    text-align: center;
+    font-size: 15px;
+}
+
+/* Banner Section */
 
 .banner {
     background-color: #E554731A;
@@ -36,4 +57,72 @@ body {
     font-weight: 400;
     font-family: 'Courier New', Courier, monospace;
 
+}
+
+
+/* Main section */
+
+.feature{
+    padding: 100px;
+}
+
+.feature > p {
+    margin-top: 20px;
+}
+
+.featured-flower{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.flower-1{
+    background-color: #E554731A;
+    padding: 60px 70px 0px 70px;
+    margin-bottom: 125px;
+    border-radius: 50% 50% 0% 0%;
+    margin-right: 20px;
+    margin-bottom: 0%;
+}
+.flower-1 > img {
+    width: 200px;
+    height: 300px;
+}
+
+.flower-2{
+    background-color: #0597A026;
+    padding: 60px 70px 0px 70px;
+    margin-bottom: 125px;
+    border-radius: 50% 50% 0% 0%;
+    margin-right: 20px;
+    margin-bottom: 0%;
+}
+.flower-2 > img {
+    width: 200px;
+    height: 300px;
+}
+
+.flower-3{
+    background-color: #477D1126;
+    padding: 60px 70px 0px 70px;
+    margin-bottom: 125px;
+    border-radius: 50% 50% 0% 0%;
+    margin-bottom: 0%;
+}
+.flower-3 > img {
+    width: 200px;
+    height: 300px;
+}
+
+.featured-flower-name{
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+}
+
+.flower-text{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 20px;
+    border-bottom: 1px solid black;
 }
